@@ -4,11 +4,12 @@ plugins {
 }
 
 group = "gg.essential"
-version = "0.7.2"
+version = "0.7.3"
 
 java.withSourcesJar()
 
 repositories {
+    mavenLocal()
     mavenCentral()
     gradlePluginPortal()
     maven(url = "https://maven.fabricmc.net/")
